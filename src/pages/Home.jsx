@@ -1,10 +1,12 @@
 import Logo from "../components/Logo";
 import Products from "../components/Products";
+import Navbar from "../components/Navbar";
+
 
 const Home = () => {
   return (
     <div>
-      <Logo />
+      <Navbar />
       <Products />
     </div>
   );
