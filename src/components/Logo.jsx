@@ -1,10 +1,12 @@
+import image from "../images/logo.png";
+
 const Logo = () => {
   return (
-    <div>
-      <h1 className="flex text-4xl pb-8 font-extrabold	text-amber-600 font-mono">
-        Classics
-      </h1>
-    </div>
+    <>
+      <a href="https://github.com/tolgapp" target="_blank" rel="noreferrer">
+        <img className="size-14" src={image} alt="logo with my head" />
+      </a>
+    </>
   );
 };
 

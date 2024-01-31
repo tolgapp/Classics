@@ -5,11 +5,11 @@ import "../style/loader.css";
 const Loader = () => {
   let navigate = useNavigate();
 
-  useEffect(() => {
-    setTimeout(() => {
-      navigate("/home");
-    }, 3000);
-  }, [navigate]);
+useEffect(() => {
+  setTimeout(() => {
+    navigate("/home");
+  }, 3000);
+}, [navigate])
 
   return (
     <>
