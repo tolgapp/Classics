@@ -1,22 +1,29 @@
 [
   {
     "id": 1,
-    "product": "macbook pro",
-    "text": "The new beast to go for Pro creators!"
+    "product": "Apple Macbook Pro",
+    "text": "The new beast to go for Pro creators!",
+    "image": "https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 2,
-    "product": "satechi",
-    "text": "Minimalistic Connection for your Mac. Get yours now!"
+    "product": "Satechi",
+    "text": "Minimalistic connection for your Mac. Get yours now!",
+    "image": "https://cdn.shopify.com/s/files/1/1520/4366/products/pro-hub-slim-hubs-adapters-satechi-254403.png?v=1674758514",
+    "image2": "https://cdn.shopify.com/s/files/1/1520/4366/products/pro-hub-slim-hubs-adapters-satechi-415024.png?v=1674758514"
   },
   {
     "id": 3,
-    "product": "ipad 2023",
-    "text": "Stay connected to the world with your new iPad Pro"
+    "product": "iPad 2023",
+    "text": "Stay connected to the world with your new iPad Pro",
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202212?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1667594167534",
+    "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202212-11inch-space-gray_AV1_GEO_EMEA?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1668552406217"
   },
   {
     "id": 4,
-    "product": "beats fit pro",
-    "text": "Beats or Beast? Change the view to the world in your mind with pro sound and feel the beat!"
+    "product": "Beats Fit Pro",
+    "text": "Beats or Beast? Change the view to the world in your mind with pro sound and feel the beat!",
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663483000",
+    "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663474000" 
   }
 ]

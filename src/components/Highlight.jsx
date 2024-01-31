@@ -1,17 +1,17 @@
-const Products = () => {
+const Highlight = () => {
   return (
     <>
       <div href="#" className="group relative block">
         <div className="relative h-[350px] sm:h-[450px] ">
           <img
             src="https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            alt="macbook pro 2023"
             className="rounded-2xl absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
           />
 
           <img
             src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            alt="macbook"
             className=" rounded-2xl absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
           />
         </div>
@@ -38,4 +38,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Highlight;

@@ -1,7 +1,11 @@
+import Navbar from "../components/Navbar";
+
 const Tipps = () => {
   return (
-    <div>Tipps</div>
-  )
-}
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
-export default Tipps
+export default Tipps;
