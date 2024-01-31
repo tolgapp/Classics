@@ -12,7 +12,7 @@ const Products = () => {
           <img
             src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="rounded-2xl absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            className=" rounded-2xl absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
           />
         </div>
 
@@ -27,7 +27,7 @@ const Products = () => {
           </p>
           
           <a
-            href="https://zalando.de"
+            href="https://www.apple.com/de/macbook-pro/"
             className="rounded-xl mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
           >
             Shop Now

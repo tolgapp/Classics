@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "product": "macbook pro",
+    "text": "The new beast to go for Pro creators!"
+  },
+  {
+    "id": 2,
+    "product": "satechi",
+    "text": "Minimalistic Connection for your Mac. Get yours now!"
+  },
+  {
+    "id": 3,
+    "product": "ipad 2023",
+    "text": "Stay connected to the world with your new iPad Pro"
+  },
+  {
+    "id": 4,
+    "product": "beats fit pro",
+    "text": "Beats or Beast? Change the view to the world in your mind with pro sound and feel the beat!"
+  }
+]
