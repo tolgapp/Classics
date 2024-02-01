@@ -2,13 +2,14 @@
   {
     "id": 1,
     "product": "Apple Macbook Pro",
-    "text": "The new beast to go for Pro creators!",
-    "image": "https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "text": "The new to go beast for Pro creators.",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image2": "https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     "id": 2,
     "product": "Satechi USB-C Multiport Pro Adapter",
-    "text": "Minimalistic connection for your Mac. Get yours now!",
+    "text": "Minimalistic connection for your Mac.",
     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMYE2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1593320216000",
     "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMYE2_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=16258607450004"
   },
@@ -22,7 +23,7 @@
   {
     "id": 4,
     "product": "Beats Fit Pro",
-    "text": "Beats or Beast? Change the view to the world in your mind with pro sound and feel the beat!",
+    "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663483000",
     "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663474000" 
   }

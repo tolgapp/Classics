@@ -5,22 +5,16 @@ import "../style/loader.css";
 const Loader = () => {
   let navigate = useNavigate();
 
-useEffect(() => {
-  setTimeout(() => {
-    navigate("/home");
-  }, 3000);
-}, [navigate])
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/home");
+    }, 1400);
+  }, [navigate]);
 
   return (
-    <>
-      <div className="newtons-cradle">
-        <div className="newtons-cradle__dot"></div>
-        <div className="newtons-cradle__dot"></div>
-        <div className="newtons-cradle__dot"></div>
-        <div className="newtons-cradle__dot"></div>
-      </div>
-      <h3 className="mt-96 font-mono">Loading ...</h3>
-    </>
+   <div className="flex justify-center max-h-full">
+    <h3 className="flex w-max font-mono content-center place-items-center ">Loading ...</h3>
+   </div>
   );
 };
 
