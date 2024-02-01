@@ -24,7 +24,7 @@ const Products = () => {
                   <img
                     src={elt.image2}
                     alt={elt.product}
-                    className=" rounded-2xl absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+                    className=" rounded-2xl absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
                   />
                 ) : (
                   ""
