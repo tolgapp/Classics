@@ -29,6 +29,7 @@ const News = () => {
   };
 
   const [active, setActive] = useState(0);
+
   useEffect(() => {
     // create an interval
     const intervalId = setInterval(() => {

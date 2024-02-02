@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center mb-8 rounded-xl bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+    <div className="flex justify-between items-center mb-8 rounded-xl bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white z-10">
       <Logo />
       <div className="flex justify-around space-x-8 text-zinc-50  ">
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>Home</Link>

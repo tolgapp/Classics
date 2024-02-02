@@ -15,7 +15,7 @@ const Products = () => {
       <div>
         {item.map((elt) => {
           return (
-            <div key={elt.id} className="group relative block mt-8">
+            <div key={elt.id} className="group relative block mt-8 ">
               <div className="relative h-[350px] sm:h-[450px]">
                 <img
                   src={elt.image}
@@ -32,7 +32,7 @@ const Products = () => {
                 <h2 className="rounded-xl mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                   {elt.product}
                 </h2>
-                <p className="bg-neutral-900 px-3 py-2 opacity-60	rounded-2xl mt-2">
+                <p className="bg-neutral-900 px-3 py-2 opacity-60	rounded-xl mt-2">
                   {elt.text}
                 </p>
               </div>
