@@ -1,12 +1,12 @@
 const FooterData = ({ header, data }) => {
   return (
-    <div className="mt-36 flex flex-col items-center w-full bg-black">
-      <h3 className="font-mono text-stone-100 bg-zinc-950 p-2 rounded-lg ">
+    <div className="mt-36 flex flex-col items-center w-full bg-black p-10 ">
+      <h3 className="font-mono text-teal-900 p-2 ">
         {header}
       </h3>
       {data.map((elt) => {
         return (
-          <section key={elt.id} className="flex flex-col justify-items-start">
+          <section key={elt.id} className="flex flex-col">
             <a
               href="https://tolgapp.de"
               target="_blank"
