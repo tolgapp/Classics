@@ -13,11 +13,11 @@ const Navbar = () => {
         <Link className="hover:text-teal-700 hover:underline" to={"/products"}>
           Products
         </Link>
-        <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
-          Contact
-        </Link>
         <Link className="hover:text-teal-700 hover:underline" to={"/tipps"}>
           Tipps
+        </Link>
+        <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
+          Contact
         </Link>
         <DarkMode />
       </div>
