@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="flex">
       <div className="mt-36 flex flex-col justify-center w-full bg-black">
-        <a className="flex items-center" href="">
+        <a className="flex items-center" href="https://tolgapp.de">
           <img className="ml-8 size-10" src={github} alt="" />
           <h5 className=" font-mono">Tolgapp</h5>
         </a>

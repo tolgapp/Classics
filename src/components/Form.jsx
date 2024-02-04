@@ -56,12 +56,18 @@ const Form = () => {
           </button>
         </form>
       ) : (
-        <button
-          className="w-1/2 p-2 rounded-lg bg-teal-700 font-mono hover:bg-teal-500"
-          onClick={handleClick}
-        >
-          Get in touch
-        </button>
+        <>
+          <h1 className="font-sans font-semibold text-8xl mb-14 break-words">
+            You need more information about a product or have a order that goes
+            above over 10K? Let&apos;s ..
+          </h1>
+          <button
+            className="w-1/2 p-2 rounded-lg bg-teal-700 font-mono hover:bg-teal-500"
+            onClick={handleClick}
+          >
+            Get in touch
+          </button>
+        </>
       )}
     </>
   );

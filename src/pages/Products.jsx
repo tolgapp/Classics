@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import data from "../assets/info.json";
+import Footer from "../components/Footer";
 
 const Products = () => {
   const [item, setItem] = useState([]);
@@ -40,6 +41,7 @@ const Products = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };
