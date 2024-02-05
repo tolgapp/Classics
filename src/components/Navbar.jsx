@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="static flex justify-between items-center mb-8 rounded-xl bg-black px-5 py-2 text-xs font-medium uppercase tracking-wider text-white z-10">
+    <div className="z-10 md:static flex justify-between items-center mb-8 rounded-xl bg-gray-950 px-5 py-2 text-xs font-medium uppercase tracking-wider text-white">
       <Logo />
       {mobile ? (
         <img
@@ -49,7 +49,7 @@ const Navbar = () => {
         <DarkMode />
       </div>
       {mobile ? (
-        <div className="fixed bottom-0 w-full bg-black rounded-t-xl left-0 h-4/6 z-30 md:hidden">
+        <div className="fixed bottom-0 backdrop-blur-2xl w-full border dark:border-gray-700  rounded-t-xl left-0 h-4/6 z-30 md:hidden">
           <MobileNav mobile={handleMobile} />
         </div>
       ) : (

@@ -30,7 +30,7 @@ const Products = () => {
                 />
               </div>
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                <h2 className="rounded-xl mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                <h2 className="rounded-xl mt-3 inline-block bg-gray-950 px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                   {elt.product}
                 </h2>
                 <p className="bg-neutral-900 px-3 py-2 opacity-60	rounded-xl mt-2">

@@ -31,9 +31,9 @@ const Form = () => {
     <>
       {click ? (
         <div>
-          <div className=""> Message 1</div>
-          <div> Message 2</div>
-          <form className="flex flex-col justify-center items-center mt-20 w-full">
+          <div className="hidden"> Message 1</div>
+          <div className="hidden"> Message 2</div>
+          <form className="flex flex-col justify-center items-center mt-12 w-full md:mt-20">
             {data.exampleData.map((elt) => {
               return (
                 <input
@@ -42,25 +42,25 @@ const Form = () => {
                   name={elt.name}
                   placeholder={elt.name}
                   required
-                  className="w-full p-2 my-1.5 rounded-lg focus:ring focus:ring-teal-600 outline-none font-mono md:w-1/2 "
+                  className="w-5/6 p-2 my-1.5 rounded-lg focus:ring focus:ring-teal-600 outline-none font-mono md:w-1/2 "
                 />
               );
             })}
             <textarea
               placeholder="Your message"
-              className="p-2 font-mono my-1.5 rounded-lg resize-none w-full focus:ring  focus:ring-teal-600 outline-none md:w-1/2"
+              className="p-2 font-mono my-1.5 rounded-lg resize-none w-5/6 focus:ring  focus:ring-teal-600 outline-none md:w-1/2"
               rows="9"
               cols={20}
             />
             <button
-              className="w-full p-2 rounded-lg my-1.5 bg-teal-700 font-mono hover:bg-teal-500 md:w-1/2"
+              className="w-5/6 p-2 rounded-lg my-1.5 bg-teal-700 font-mono hover:bg-teal-500 md:w-1/2"
               type="submit"
             >
               Send
             </button>
           </form>
-          <div>Message 3</div>
-          <div>Message 4</div>
+          <div className="hidden">Message 3</div>
+          <div className="hidden">Message 4</div>
         </div>
       ) : (
         <>
