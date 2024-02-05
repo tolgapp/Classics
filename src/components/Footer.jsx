@@ -6,8 +6,8 @@ import help from "../assets/footerHelp.json";
 
 const Footer = () => {
   return (
-    <div className="flex">
-      <div className="mt-36 flex flex-col justify-center w-full bg-black">
+    <div className="flex flex-col bg-black mt-36 rounded-t-xl md:flex-row">
+      <div className="hidden md:flex flex-col justify-center w-full">
         <a className="flex items-center" href="https://tolgapp.de">
           <img className="ml-8 size-10" src={github} alt="" />
           <h5 className=" font-mono">Tolgapp</h5>
@@ -16,6 +16,13 @@ const Footer = () => {
       </div>
       <FooterPartner data={data} header={"Partnership"} />
       <FooterContact data={help} header={"Help & Information"} />
+      <div className="flex flex-col justify-center w-full md:hidden">
+        <a className="flex justify-center items-center mt-8" href="https://tolgapp.de">
+          <img className="size-10" src={github} alt="" />
+          <h5 className=" font-mono">Tolgapp</h5>
+        </a>
+        <p className="flex justify-center mb-6 font-mono">©2024</p>
+      </div>
     </div>
   );
 };

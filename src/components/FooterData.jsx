@@ -1,6 +1,6 @@
 const FooterData = ({ header, data }) => {
   return (
-    <div className="mt-36 flex flex-col items-center w-full bg-black p-10 ">
+    <div className="flex flex-col items-center w-full p-10 ">
       <h3 className="font-mono text-teal-500 p-2 ">
         {header}
       </h3>

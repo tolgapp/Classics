@@ -43,11 +43,11 @@ const News = () => {
   const currentData = data.exampleData[active];
 
   return (
-    <div className="m-8 flex justify-center">
-      <h2 className="text-teal-700">
+    <div className="flex flex-col mb-8 text-xs md:flex-row justify-center md:text-sm">
+      <h2 className="text-teal-500">
         {currentData.product}
       </h2>
-      <p className="pl-5">{currentData.text}</p>
+      <p className="md:pl-5">{currentData.text}</p>
     </div>
   );
 };
