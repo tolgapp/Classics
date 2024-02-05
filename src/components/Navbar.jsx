@@ -1,14 +1,38 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Logo from "./Logo";
 import DarkMode from "./DarkMode";
-import mobile from "../assets/images/mobileWhite.png";
+import burger from "../assets/images/mobileWhite.png";
+import cancel from "../assets/images/cancel.png";
+import MobileNav from "./MobileNav";
 // import mobileDark from "../assets/images/mobileDark.png";
 
 const Navbar = () => {
+  const [mobile, setMobile] = useState(false);
+
+  const handleMobile = () => {
+    setMobile(!mobile);
+    console.log(!mobile);
+  };
+
   return (
-    <div className="flex justify-between items-center mb-8 rounded-xl bg-black px-5 py-2 text-xs font-medium uppercase tracking-wider text-white z-10">
+    <div className="static flex justify-between items-center mb-8 rounded-xl bg-black px-5 py-2 text-xs font-medium uppercase tracking-wider text-white z-10">
       <Logo />
-      <img className="size-8 md:hidden" src={mobile} alt="mobile menu icon" />
+      {mobile ? (
+        <img
+          onClick={handleMobile}
+          className="size-8 md:hidden"
+          src={cancel}
+          alt="mobile menu icon"
+        />
+      ) : (
+        <img
+          onClick={handleMobile}
+          className="size-8 md:hidden"
+          src={burger}
+          alt="mobile menu icon"
+        />
+      )}
       <div className="hidden md:flex justify-around space-x-8 text-zinc-50 ">
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>
           Home
@@ -16,7 +40,7 @@ const Navbar = () => {
         <Link className="hover:text-teal-700 hover:underline" to={"/products"}>
           Products
         </Link>
-        <Link className="hover:text-teal-700 hover:underline" to={"/tipps"}>
+        <Link className="hover:text-teal-700 hover:underline" to={"/tips"}>
           Tipps
         </Link>
         <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
@@ -24,6 +48,13 @@ const Navbar = () => {
         </Link>
         <DarkMode />
       </div>
+      {mobile ? (
+        <div className="fixed bottom-0 w-full bg-black rounded-t-xl left-0 h-4/6 z-30 md:hidden">
+          <MobileNav mobile={handleMobile} />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

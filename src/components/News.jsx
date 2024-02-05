@@ -23,7 +23,7 @@ const News = () => {
         {
           "id": 4,
           "product": "Beats Fit Pro",
-          "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!"
+          "text": "Beats or Beast? Change the view to the world with pro sound!"
         }
       ]
   };

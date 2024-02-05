@@ -31,7 +31,7 @@ const Form = () => {
     <>
       {click ? (
         <div>
-          <div> Message 1</div>
+          <div className=""> Message 1</div>
           <div> Message 2</div>
           <form className="flex flex-col justify-center items-center mt-20 w-full">
             {data.exampleData.map((elt) => {
@@ -42,18 +42,18 @@ const Form = () => {
                   name={elt.name}
                   placeholder={elt.name}
                   required
-                  className="p-2 my-1.5 rounded-lg w-1/2 focus:ring focus:ring-teal-600 outline-none font-mono"
+                  className="w-full p-2 my-1.5 rounded-lg focus:ring focus:ring-teal-600 outline-none font-mono md:w-1/2 "
                 />
               );
             })}
             <textarea
               placeholder="Your message"
-              className="p-2 font-mono my-1.5 rounded-lg resize-none w-1/2 focus:ring  focus:ring-teal-600 outline-none"
+              className="p-2 font-mono my-1.5 rounded-lg resize-none w-full focus:ring  focus:ring-teal-600 outline-none md:w-1/2"
               rows="9"
               cols={20}
             />
             <button
-              className="w-1/2 p-2 rounded-lg my-1.5 bg-teal-700 font-mono hover:bg-teal-500"
+              className="w-full p-2 rounded-lg my-1.5 bg-teal-700 font-mono hover:bg-teal-500 md:w-1/2"
               type="submit"
             >
               Send
@@ -64,7 +64,7 @@ const Form = () => {
         </div>
       ) : (
         <>
-          <h1 className="rounded-lg font-sans font-semibold text-9xl mb-14 mt-14 break-words bg-gradient-to-r from-teal-400 to-teal-800 text-transparent bg-clip-text p-2">
+          <h1 className="rounded-lg font-sans font-semibold text-4xl mb-14 mt-14 break-words bg-gradient-to-r from-teal-400 to-teal-800 text-transparent bg-clip-text p-2 md:text-9xl">
             <span className="text-slate-50">You</span> need more information
             about a product or have an order that goes over 10K?{" "}
             <span className="text-slate-50">Let&apos;s ..</span>
