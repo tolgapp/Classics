@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 
 
 const Info = () => {
+  
   return (
-    <div className="flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide">
+    <div className="flex mb-4 w-full flex-nowrap overflow-x-scroll ">
       {data.map((elt) => {
         return (
           <div
@@ -21,7 +22,7 @@ const Info = () => {
             </a>
             <div className="px-1 mt-4 pb-2">
               <Link to={elt.id}>
-                <h5 className="mb-3 w-64 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-3 w-64 text-3xl font-semibold tracking-tight text-white">
                   {elt.text}
                 </h5>
               </Link>

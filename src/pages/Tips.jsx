@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const Tipps = () => {
+const Tips = () => {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ const Tipps = () => {
   );
 };
 
-export default Tipps;
+export default Tips;

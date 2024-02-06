@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FooterData = ({ header, data }) => {
   return (
     <div className="flex flex-col items-center w-full p-10 ">
@@ -7,14 +9,14 @@ const FooterData = ({ header, data }) => {
       {data.map((elt) => {
         return (
           <section key={elt.id} className="flex flex-col">
-            <a
-              href="https://tolgapp.de"
-              target="_blank"
+            <Link
+              to={"/home"}
+              target=""
               rel="noreferrer"
               className="mt-4 hover:underline hover:text-neutral-400"
             >
               {elt.text}
-            </a>
+            </Link>
           </section>
         );
       })}
