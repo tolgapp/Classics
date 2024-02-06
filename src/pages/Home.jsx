@@ -12,6 +12,8 @@ import News from "../components/News";
 // TODO: Icons on the background @nav if hovered on the page links
 
 // FIXME: Wechsel auf Products "Springeffekt" fixen
+// FIXME: (Info.jsx) X Scroll and the width of the components (should be wider and the fifth should shown only if scrolled )
+
 
 
 const Home = () => {
