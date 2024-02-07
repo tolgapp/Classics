@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import DarkMode from "./DarkMode";
 
-const MobileNav = ({ mobile, darkMode, toggleDark }) => {
+const MobileNav = ({ mobile }) => {
   return (
     <div className="flex flex-col items-center justify-center transition-shadow duration-700 ease-in-out text-white text-lg mt-8 sm:hidden  ">
       <p
@@ -25,7 +25,7 @@ const MobileNav = ({ mobile, darkMode, toggleDark }) => {
       <Link className="hover:text-teal-700 hover:underline p-4" to={"/contact"}>
         Contact
       </Link>
-      <DarkMode darkMode={darkMode} toggleDark={toggleDark} />
+      <DarkMode  />
     </div>
   );
 };

@@ -40,7 +40,7 @@ const Navbar = () => {
           Products
         </Link>
         <Link className="hover:text-teal-700 hover:underline" to={"/tips"}>
-          Tipps
+          Tips
         </Link>
         <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
           Contact
@@ -48,7 +48,7 @@ const Navbar = () => {
         <DarkMode  />
       </div>
       {mobile ? (
-        <div className="fixed bottom-0 backdrop-blur-2xl w-full border dark:border-gray-700  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
+        <div className="fixed bottom-0 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
           <MobileNav
             mobile={handleMobile}
             // darkMode={darkMode}

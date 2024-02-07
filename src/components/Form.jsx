@@ -65,9 +65,9 @@ const Form = () => {
       ) : (
         <>
           <h1 className="rounded-lg font-sans font-semibold text-4xl mb-14 mt-14 break-words bg-gradient-to-r from-teal-400 to-teal-800 text-transparent bg-clip-text p-2 md:text-9xl">
-            <span className="text-black  dark:text-white">You</span> need more information
+            <span className="text-white  dark:text-white">You</span> need more information
             about a product or have an order that goes over 10K?{" "}
-            <span className="text-black  dark:text-white">Let&apos;s ..</span>
+            <span className="text-white  dark:text-white">Let&apos;s ..</span>
           </h1>
           <button
             className="w-1/2 p-2 rounded-lg bg-teal-700 font-mono hover:bg-teal-500 font"
