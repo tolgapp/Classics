@@ -5,7 +5,6 @@ import DarkMode from "./DarkMode";
 import burger from "../assets/images/mobileWhite.png";
 import cancel from "../assets/images/cancel.png";
 import MobileNav from "./MobileNav";
-// import mobileDark from "../assets/images/mobileDark.png";
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
@@ -16,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="z-10 sm:static flex justify-between items-center mb-8 rounded-xl bg-gray-950 px-5 py-2 text-xs font-medium uppercase tracking-wider text-white">
+    <div className="z-10  bg-gray-950 text-white sm:static flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider ">
       <Logo />
       {mobile ? (
         <img
@@ -33,7 +32,7 @@ const Navbar = () => {
           alt="mobile menu icon"
         />
       )}
-      <div className="hidden sm:flex justify-around space-x-8 text-zinc-50 ">
+      <div className="hidden sm:flex justify-between items-center space-x-8 text-white">
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>
           Home
         </Link>
@@ -46,11 +45,15 @@ const Navbar = () => {
         <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
           Contact
         </Link>
-        <DarkMode />
+        <DarkMode  />
       </div>
       {mobile ? (
         <div className="fixed bottom-0 backdrop-blur-2xl w-full border dark:border-gray-700  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
-          <MobileNav mobile={handleMobile} />
+          <MobileNav
+            mobile={handleMobile}
+            // darkMode={darkMode}
+            // toggleDark={toggleDark}
+          />
         </div>
       ) : (
         ""

@@ -11,7 +11,7 @@ const Products = () => {
   }, [item]);
 
   return (
-    <div>
+    <>
       <Navbar />
       <div>
         {item.map((elt) => {
@@ -33,7 +33,7 @@ const Products = () => {
                 <h2 className="rounded-xl mt-3 inline-block bg-gray-950 px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                   {elt.product}
                 </h2>
-                <p className="bg-neutral-900 px-3 py-2 opacity-60	rounded-xl mt-2">
+                <p className=" bg-neutral-900 px-3 py-2 opacity-60	rounded-xl mt-2">
                   {elt.text}
                 </p>
               </div>
@@ -42,7 +42,7 @@ const Products = () => {
         })}
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

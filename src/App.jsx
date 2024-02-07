@@ -1,4 +1,3 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Loader from "./components/Loader";
@@ -7,6 +6,7 @@ import Tips from "./pages/Tips";
 import Contact from "./pages/Contact";
 
 function App() {
+
   return (
     <>
       <Routes>

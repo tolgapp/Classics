@@ -4,23 +4,33 @@ import Info from "../components/Info";
 import Navbar from "../components/Navbar";
 import News from "../components/News";
 
-
-
 // TODO: Dark / Light Theme (for now just the background)
-// TODO: Customer Service Card with Image and some info on Home 
-// TODO: Icons on the background @nav if hovered on the page links
+// TODO: Customer Service Card with Image and some info on Home
 
 // FIXME: Wechsel auf Products "Springeffekt" fixen
 
-
 const Home = () => {
+  // const [darkMode, setDarkMode] = useState(false);
+
+  // const toggleDark = () => {
+  //   setDarkMode(!darkMode);
+  //   {
+  //     darkMode
+  //       ? (document.body.style.backgroundColor = "#222222")
+  //       : (document.body.style.backgroundColor = "#ffffff");
+  //   }
+  //   {
+  //     darkMode && document.body.classList.toggle("dark");
+  //   }
+  // };
+
   return (
     <div>
-      <Navbar />
+      <Navbar  />
       <News />
       <Info />
       <Highlight />
-      <Footer />
+      <Footer  />
     </div>
   );
 };

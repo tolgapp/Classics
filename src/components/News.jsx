@@ -44,10 +44,10 @@ const News = () => {
 
   return (
     <div className="flex flex-col mb-8 text-xs md:flex-row justify-center md:text-sm">
-      <h2 className="text-teal-500">
+      <h2 className="text-teal-500 ">
         {currentData.product}
       </h2>
-      <p className="md:pl-5">{currentData.text}</p>
+      <p className="md:pl-5  dark:text-white">{currentData.text}</p>
     </div>
   );
 };

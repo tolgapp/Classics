@@ -1,16 +1,24 @@
-import { useState } from "react";
+import dark from "../assets/images/toggleDark.png";
+import light from "../assets/images/toggleLight.png";
 
-const DarkMode = () => {
-
-const [click, setClick] = useState(false);
-
-const toggle = () => {
-    setClick(!click);
-}
-
+const DarkMode = ({ darkMode, toggleDark }) => {
   return (
     <>
-      {click ? <p onClick={toggle} className="md:font-mono text-slate-50 rounded-lg w-20">DAR.K</p> : <p onClick={toggle} className="md:font-mono bg-slate-50 text-black rounded-lg w-20">WHIT.E</p>}
+      {!darkMode ? (
+        <img
+          onClick={toggleDark}
+          src={light}
+          alt="light icon"
+          className="size-8"
+        />
+      ) : (
+        <img
+          onClick={toggleDark}
+          src={dark}
+          alt="darkness icon"
+          className="size-8"
+        />
+      )}
     </>
   );
 };

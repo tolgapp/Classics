@@ -12,9 +12,14 @@ const Loader = () => {
   }, [navigate]);
 
   return (
-   <div className="flex justify-center max-h-full">
-    <h3 className="flex w-max font-mono content-center place-items-center ">Loading ...</h3>
-   </div>
+    <div className="flex h-screen flex-col justify-center items-center max-h-full">
+      <h3 className="flex w-max font-mono content-center place-items-center ">
+        Loading ...
+      </h3>
+      <p className="w-max font-mono content-center place-items-center text-rose-800">
+        <span>Click </span> not the Logo!
+      </p>
+    </div>
   );
 };
 
