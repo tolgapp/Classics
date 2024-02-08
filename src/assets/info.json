@@ -3,7 +3,7 @@
     "id": 1,
     "product": "Apple Macbook Pro",
     "text": "The new to go beast for Pro creators.",
-    "image": "src/assets/images/mbp.png",
+    "image": "./src/assets/images/mbp.png",
     "price": "From 1799€",
     "rating": 4
   },
