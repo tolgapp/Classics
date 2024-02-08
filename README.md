@@ -9,14 +9,14 @@
 ![ViteJS](public/vite.svg)
 
 > ## Web View
-![Home Page](src/assets/images/screenshots/14.png)
-![Products Page](src/assets/images/screenshots/13.png)
-![Tips Page](src/assets/images/screenshots/12.png)
-![Contact Page](src/assets/images/screenshots/11.png)
+![Home Page](/images/screenshots/14.png)
+![Products Page](/images/screenshots/13.png)
+![Tips Page](/images/screenshots/12.png)
+![Contact Page](/images/screenshots/11.png)
 
 ## Mobile View 
-![Home Page](src/assets/images/screenshots/23.png)
-![Tips Page with Mobile Nav](src/assets/images/screenshots/21.png)
+![Home Page](/images/screenshots/23.png)
+![Tips Page with Mobile Nav](/images/screenshots/21.png)
 
 > [!IMPORTANT]
 > How to use?
