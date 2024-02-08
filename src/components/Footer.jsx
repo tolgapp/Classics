@@ -1,4 +1,4 @@
-import github from "../../public/images/github.png";
+import github from "../images/github.png";
 import FooterPartner from "./FooterData";
 import FooterContact from "./FooterData";
 import data from "../assets/footerPartner.json";

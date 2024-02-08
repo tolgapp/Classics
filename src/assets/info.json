@@ -3,7 +3,7 @@
     "id": 1,
     "product": "Apple Macbook Pro",
     "text": "The new to go beast for Pro creators.",
-    "image": "../../public/images/mbp.png",
+    "image": "/images/mbp.png",
     "price": "From 1799€",
     "rating": 4
   },
@@ -11,21 +11,21 @@
     "id": 2,
     "product": "Anker Powerbank 140W",
     "text": "Minimalistic connection for your Mac.",
-    "image": "../public/images/powerbank.png",
+    "image": "/images/powerbank.png",
     "price": "From 139€"
   },
   {
     "id": 3,
     "product": "iPad 2023",
     "text": "Stay connected to the world with your new iPad Pro",
-    "image": "../public/images/ipadpro11.png",
+    "image": "/images/ipadpro11.png",
     "price": "From 1799€"
   },
   {
     "id": 4,
     "product": "Beats Fit Pro",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
-    "image": "../public/images/beats.png",
+    "image": "/images/beats.png",
     "price": "From 199€"
      
   }
@@ -34,7 +34,7 @@
     "id": 5,
     "product": "Thunderbolt 4 - 1.8 meters",
     "text": "Transfer data with the speed of thunder!",
-    "image": "../public/images/thunderbolt.png",
+    "image": "/images/thunderbolt.png",
     "price": "From 149€"
      
   }
@@ -43,7 +43,7 @@
     "id": 6,
     "product": "iMac 24' 3.5K",
     "text": "All in one mac for makers.",
-    "image": "../public/images/imac.png",
+    "image": "/images/imac.png",
     "price": "From 1299€"
      
   }
@@ -52,7 +52,7 @@
     "id": 7,
     "product": "Logitech MX Master",
     "text": "Tired of pain after working hours with your actual mouse? .. You get it!",
-    "image": "../public/images/logitech.png" ,
+    "image": "/images/logitech.png" ,
     "price": "From 119€"
   }
   ,
@@ -60,7 +60,7 @@
     "id": 8,
     "product": "Magickeyboard 2 Spacegray",
     "text": "Create Magic with Magic.",
-    "image": "../public/images/magickey.png" ,
+    "image": "/images/magickey.png" ,
     "price": "110€"
   }
   ,
@@ -68,7 +68,7 @@
     "id": 9,
     "product": "F*ckng Art",
     "text": "Good Fucking Design Advice",
-    "image": "../public/images/fckng.png" ,
+    "image": "/images/fckng.png" ,
     "price": "From 1799€"
   }
   ,
@@ -76,7 +76,7 @@
     "id": 10,
     "product": "Bagpack Black",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
-    "image": "../public/images/tasche.png" ,
+    "image": "/images/tasche.png" ,
     "price": "89€"
   }
   ,
@@ -84,7 +84,7 @@
     "id": 11,
     "product": "Fritz Box 7590 AX",
     "text": "Easy. Stable Connection. FritzBox.",
-    "image": "../public/images/fritz.png" ,
+    "image": "/images/fritz.png" ,
     "price": "219€"
   }
   ,
@@ -92,7 +92,7 @@
     "id": 12,
     "product": "Homepod 2",
     "text": "Incredible 360° sound in small.",
-    "image": "../public/images/homepod.png" ,
+    "image": "/images/homepod.png" ,
     "price": "From 189€"
   }
   ,
@@ -100,7 +100,7 @@
     "id": 13,
     "product": "Bang Olufsen H9",
     "text": "Quality sound from sweden.",
-    "image": "../public/images/bangolufsenh9.png" ,
+    "image": "/images/bangolufsenh9.png" ,
     "price": "From 199€"
   }
   ,
@@ -108,7 +108,7 @@
     "id": 14,
     "product": "iPhone 15 Pro",
     "text": "Fast. Faster. iPhone Pro.",
-    "image": "../public/images/iphone15pro.png" ,
+    "image": "/images/iphone15pro.png" ,
     "price": "From 1199€"
   }
   ,
@@ -116,7 +116,7 @@
     "id": 15,
     "product": "AirPods Max",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
-    "image": "../public/images/airpodsmax.png" ,
+    "image": "/images/airpodsmax.png" ,
     "price": "From 399€"
   }
 
