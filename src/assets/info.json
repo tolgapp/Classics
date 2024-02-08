@@ -1,30 +1,122 @@
 [
   {
     "id": 1,
-    "product": "Apple Macbook PrO",
+    "product": "Apple Macbook Pro",
     "text": "The new to go beast for Pro creators.",
-    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "image2": "https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "image": "src/assets/images/mbp.png",
+    "price": "From 1799€"
   },
   {
     "id": 2,
-    "product": "Satechi USB-C Multiport Pro Adapter",
+    "product": "Anker Powerbank 140W",
     "text": "Minimalistic connection for your Mac.",
-    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMYE2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1593320216000",
-    "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HMYE2_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=16258607450004"
+    "image": "src/assets/images/powerbank.png",
+    "price": "From 139€"
   },
   {
     "id": 3,
     "product": "iPad 2023",
     "text": "Stay connected to the world with your new iPad Pro",
-    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202212?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1667594167534",
-    "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-finish-select-202212-11inch-space-gray_AV1_GEO_EMEA?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1668552406217"
+    "image": "src/assets/images/ipadpro11.png",
+    "price": "From 1799€"
   },
   {
     "id": 4,
     "product": "Beats Fit Pro",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
-    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663483000",
-    "image2": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2F3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663474000" 
+    "image": "src/assets/images/beats.png",
+    "price": "From 199€"
+     
   }
+  ,
+  {
+    "id": 5,
+    "product": "Thunderbolt 4 - 1.8 meters",
+    "text": "Transfer data with the speed of thunder!",
+    "image": "src/assets/images/thunderbolt.png",
+    "price": "From 149€"
+     
+  }
+  ,
+  {
+    "id": 6,
+    "product": "iMac 24' 3.5K",
+    "text": "All in one mac for makers.",
+    "image": "src/assets/images/imac.png",
+    "price": "From 1299€"
+     
+  }
+  ,
+  {
+    "id": 7,
+    "product": "Logitech MX Master",
+    "text": "Tired of pain after working hours with your actual mouse? .. You get it!",
+    "image": "src/assets/images/logitech.png" ,
+    "price": "From 119€"
+  }
+  ,
+  {
+    "id": 8,
+    "product": "Magickeyboard 2 Spacegray",
+    "text": "Create Magic with Magic.",
+    "image": "src/assets/images/magickey.png" ,
+    "price": "110€"
+  }
+  ,
+  {
+    "id": 9,
+    "product": "F*ckng Art",
+    "text": "Good Fucking Design Advice",
+    "image": "src/assets/images/fckng.png" ,
+    "price": "From 1799€"
+  }
+  ,
+  {
+    "id": 10,
+    "product": "Bagpack Black",
+    "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
+    "image": "src/assets/images/tasche.png" ,
+    "price": "89€"
+  }
+  ,
+  {
+    "id": 11,
+    "product": "Fritz Box 7590 AX",
+    "text": "Easy. Stable Connection. FritzBox.",
+    "image": "src/assets/images/fritz.png" ,
+    "price": "219€"
+  }
+  ,
+  {
+    "id": 12,
+    "product": "Homepod 2",
+    "text": "Incredible 360° sound in small.",
+    "image": "src/assets/images/homepod.png" ,
+    "price": "From 189€"
+  }
+  ,
+  {
+    "id": 13,
+    "product": "Bang Olufsen H9",
+    "text": "Quality sound from sweden.",
+    "image": "src/assets/images/bangolufsenh9.png" ,
+    "price": "From 199€"
+  }
+  ,
+  {
+    "id": 14,
+    "product": "iPhone 15 Pro",
+    "text": "Fast. Faster. iPhone Pro.",
+    "image": "src/assets/images/iphone15pro.png" ,
+    "price": "From 1199€"
+  }
+  ,
+  {
+    "id": 15,
+    "product": "AirPods Max",
+    "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
+    "image": "src/assets/images/airpodsmax.png" ,
+    "price": "From 1799€"
+  }
+
 ]

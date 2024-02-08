@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import DarkMode from "./DarkMode";
 import burger from "../assets/images/mobileWhite.png";
@@ -14,8 +14,31 @@ const Navbar = () => {
     console.log(!mobile);
   };
 
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+
+    if (currentScrollPos > prevScrollPos) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
-    <div className="z-10  bg-gray-950 text-white sm:static flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider ">
+    <div
+      className={`bg-gray-950 h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 bg-gray-950 text-white flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider`}
+    >
       <Logo />
       {mobile ? (
         <img
@@ -45,7 +68,7 @@ const Navbar = () => {
         <Link className="hover:text-teal-700 hover:underline" to={"/contact"}>
           Contact
         </Link>
-        <DarkMode  />
+        <DarkMode />
       </div>
       {mobile ? (
         <div className="fixed bottom-0 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">

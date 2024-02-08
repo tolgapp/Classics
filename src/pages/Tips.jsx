@@ -5,9 +5,9 @@ const Tips = () => {
   return (
     <div>
       <Navbar />
-      <section className="bg-gray-950 rounded-xl pb-12">
-        <h1 className="font-sans font-semibold text-4xl mb-14 mt-14 break-words bg-gradient-to-r from-gray-900 to-gray-500 text-transparent bg-clip-text p-2 md:text-9xl">
-          If you can imagine it! You can create it with the Macbook Pro.
+      <section className="bg-black rounded-xl pb-12 mt-14">
+        <h1 className="font-sans font-semibold pt-10 pr-8 pl-8 text-4xl break-words bg-gradient-to-r from-gray-900 to-gray-500 tracking-wide text-transparent bg-clip-text p-2 md:text-9xl ">
+          If you can imagine it! You can create it with Macbook Pro.
         </h1>
         <img
           src="https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large_2x.jpg"
