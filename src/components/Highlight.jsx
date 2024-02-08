@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Highlight = () => {
   return (
     <>
@@ -26,12 +28,12 @@ const Highlight = () => {
             All Day Long Battery for MAX Production.
           </p>
           
-          <a
-            href="https://www.apple.com/de/macbook-pro/"
+          <Link
+            to={"/tips"}
             className="rounded-xl mt-3 inline-block bg-stone-600 px-5 py-3 text-xs font-medium uppercase tracking-wide text-white hover:bg-teal-600"
           >
-            Shop Now
-          </a>
+            More info
+          </Link>
         </div>
       </div>
     </>

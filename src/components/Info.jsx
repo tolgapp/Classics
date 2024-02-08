@@ -11,7 +11,7 @@ const Info = () => {
         return (
           <div
             key={elt.id}
-            className="flex flex-col w-full sticky border rounded-lg bg-gray-950 dark:border-gray-700 mb-5 mr-4"
+            className="flex flex-col w-full sticky border border-gray-800 rounded-lg bg-gray-950 dark:border-gray-700 mb-5 mr-4"
           >
             <a href="">
               <img
