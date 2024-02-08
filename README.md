@@ -5,18 +5,26 @@
 
 ## Techs: 
 ![React](https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png)
+
 ![Tailwind](https://img.icons8.com/fluency/48/tailwind_css.png)
+
 ![ViteJS](public/vite.svg)
 
 > ## Web View
-![Home Page](/images/screenshots/14.png)
-![Products Page](/images/screenshots/13.png)
-![Tips Page](/images/screenshots/12.png)
-![Contact Page](/images/screenshots/11.png)
+![Home Page](public/images/screenshots/14.png)
+![Products Page](public/images/screenshots/13.png)
+![Tips Page](public/images/screenshots/12.png)
+![Contact Page](public/images/screenshots/11.png)
 
 ## Mobile View 
-![Home Page](/images/screenshots/23.png)
-![Tips Page with Mobile Nav](/images/screenshots/21.png)
+![Home Page](public/images/screenshots/23.png)
+![Tips Page with Mobile Nav](public/images/screenshots/21.png)
+
+
+## Link to the Homepage: 
+https://techworld-f897.onrender.com
+
+
 
 > [!IMPORTANT]
 > How to use?
