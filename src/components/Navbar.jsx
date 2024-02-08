@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Logo from "./Logo";
 import DarkMode from "./DarkMode";
-import burger from "../assets/images/mobileWhite.png";
-import cancel from "../assets/images/cancel.png";
+import burger from "../../public/images/mobileMenu.svg";
+import cancel from "../../public/images/cancel.png";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {

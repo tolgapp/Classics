@@ -1,5 +1,5 @@
-import dark from "../assets/images/toggleDark.png";
-import light from "../assets/images/toggleLight.png";
+import dark from "../../public/images/toggleDark.png";
+import light from "../../public/images/toggleLight.png";
 
 const DarkMode = ({ darkMode, toggleDark }) => {
   return (

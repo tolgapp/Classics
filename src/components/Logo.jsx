@@ -1,6 +1,6 @@
 import { useState } from "react";
-import image from "../assets/images/logo.png";
-import mac from "../assets/images/github.png";
+import image from "../../public/images/logo.png";
+import mac from "../../public/images/github.png";
 
 const Logo = () => {
   const [change, setChange] = useState(true);
