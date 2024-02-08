@@ -5,9 +5,7 @@
 
 ## Techs: 
 ![React](https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png)
-
 ![Tailwind](https://img.icons8.com/fluency/48/tailwind_css.png)
-
 ![ViteJS](public/vite.svg)
 
 > ## Web View
