@@ -6,21 +6,21 @@ const Products = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-wrap justify-center ">
+      <div className="flex flex-wrap justify-center">
         {data.map((elt) => {
           return (
             <div
               key={elt.id}
-              className="max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2 p-1"
+              className="w-full max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2 "
             >
               <a href="#">
                 <img
-                  className="p-6 rounded-t-lg h-96"
+                  className="p-4 rounded-t-lg"
                   src={elt.image}
                   alt={elt.product}
                 />
               </a>
-              <div className="px-5 pb-5">
+              <div className="px-5 pb-5 flex flex-col ">
                 <a href="#">
                   <h5 className="text-xl font-semibold tracking-tight text-white">
                     {elt.product}
