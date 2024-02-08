@@ -21,7 +21,7 @@ const Footer = () => {
           <img className="size-10" src={github} alt="" />
           <h5 className=" font-mono">Tolgapp</h5>
         </a>
-        <p className="flex justify-center mb-6 font-mono">©2024</p>
+        <p className="flex justify-center mb-6 font-mono">© 2024</p>
       </div>
     </div>
   );
