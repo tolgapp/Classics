@@ -6,16 +6,16 @@ const Products = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-wrap justify-center sm:justify-normal">
+      <div className="flex flex-wrap justify-center ">
         {data.map((elt) => {
           return (
             <div
               key={elt.id}
-              className="max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2"
+              className="max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2 p-1"
             >
               <a href="#">
                 <img
-                  className="p-8 rounded-t-lg"
+                  className="p-6 rounded-t-lg h-96"
                   src={elt.image}
                   alt={elt.product}
                 />

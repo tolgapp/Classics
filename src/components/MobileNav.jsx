@@ -3,7 +3,7 @@ import DarkMode from "./DarkMode";
 
 const MobileNav = ({ mobile }) => {
   return (
-    <div className="flex flex-col items-center justify-center transition-shadow duration-700 ease-in-out text-white text-lg mt-8 sm:hidden  ">
+    <div className="flex flex-col items-center justify-center  text-white text-lg mt-8 sm:hidden  ">
       <p
         onClick={mobile}
         className="absolute animate-pulse right-5 w-10 top-5 "

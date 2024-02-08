@@ -17,4 +17,5 @@ export default {
     },
   },
   plugins: ["prettier-plugin-tailwindcss", "flowbite/plugin"],
+  safelist: []
 };
