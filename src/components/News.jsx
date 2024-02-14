@@ -12,8 +12,8 @@ const News = () => {
         },
         {
           "id": 2,
-          "product": "Satechi",
-          "text": "Minimalistic Connection for your Mac. Get yours now!"
+          "product": "Anker",
+          "text": "Huge power in small!"
         },
         {
           "id": 3,
