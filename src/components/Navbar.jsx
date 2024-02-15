@@ -36,7 +36,7 @@ const Navbar = () => {
   });
 
   return (
-    <div
+    <nav
       className={`bg-gray-950 h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 bg-gray-950 text-white flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider`}
     >
       <Logo />
@@ -71,17 +71,17 @@ const Navbar = () => {
         <DarkMode />
       </div>
       {mobile ? (
-        <div className="fixed bottom-0 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
+        <nav className="fixed bottom-0 transition-all delay-150 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
           <MobileNav
             mobile={handleMobile}
             // darkMode={darkMode}
             // toggleDark={toggleDark}
           />
-        </div>
+        </nav>
       ) : (
         ""
       )}
-    </div>
+    </nav>
   );
 };
 
