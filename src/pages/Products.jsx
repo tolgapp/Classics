@@ -15,7 +15,7 @@ const Products = () => {
               product={elt.product}
               image={elt.image}
               price={elt.price}
-              id={elt.id}
+              id={elt.product}
             />
           );
         })}

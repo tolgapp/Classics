@@ -5,28 +5,36 @@
     "text": "The new to go beast for Pro creators.",
     "image": "/images/mbp.png",
     "price": "From 1799€",
-    "rating": 4
+    "rating": 4,
+    "detailedInfo": "SUPERCHARGED BY M3 PRO OR M3 MAX — The Apple M3 Pro chip, with an up to 12-core CPU and up to 18-core GPU, delivers amazing performance for demanding workflows like manipulating gigapixel panoramas or compiling millions of lines of code.",
+    "detailedInfo2": "All your pro apps run lightning fast — including Adobe Creative Cloud, Apple Xcode, Microsoft 365, SideFX Houdini, MathWorks MATLAB, Medivis SurgicalAR and many of your favourite iPhone and iPad apps."
   },
   {
     "id": 2,
     "product": "Anker Powerbank 140W",
     "text": "Minimalistic connection for your Mac.",
     "image": "/images/powerbank.png",
-    "price": "From 139€"
+    "price": "From 139€",
+    "detailedInfo": "Ultra-Powerful Two-Way Charging: Equipped with the latest Power Delivery 3.1 and bi-directional technology to quickly recharge the portable charger or get a 140W ultra-powerful charge.",
+    "detailedInfo2": "High Capacity: Featuring a 24,000mAh battery capacity, juice up an iPhone 13 almost 5 times or a 2021 iPad Pro 12.9' 1.3 times."
   },
   {
     "id": 3,
     "product": "iPad 2023",
     "text": "Stay connected to the world with your new iPad Pro",
     "image": "/images/ipadpro11.png",
-    "price": "From 1799€"
+    "price": "From 899€",
+    "detailedInfo": "Brilliant 11-inch Liquid Retina display with ProMotion, True Tone, and P3 wide color",
+    "detailedInfo2": "12MP Wide camera, 10MP Ultra Wide back camera, and LiDAR Scanner for immersive AR"
   },
   {
     "id": 4,
     "product": "Beats Fit Pro",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
     "image": "/images/beats.png",
-    "price": "From 199€"
+    "price": "From 199€",
+    "detailedInfo": "Flexible, secure-fit wing tips for all-day comfort and stability",
+    "detailedInfo2": "Up to 6 hours of listening time6 (up to 24 hours combined with pocket-sized charging case)"
      
   }
   ,
@@ -35,7 +43,9 @@
     "product": "Thunderbolt 4 - 1.8 meters",
     "text": "Transfer data with the speed of thunder!",
     "image": "/images/thunderbolt.png",
-    "price": "From 149€"
+    "price": "From 149€",
+    "detailedInfo": "Transfer data at up to 40Gb/s",
+    "detailedInfo2": "USB 3.1 Gen 2 data transfer at up to 10Gb/s"
      
   }
   ,
@@ -44,7 +54,9 @@
     "product": "iMac 24' 3.5K",
     "text": "All in one mac for makers.",
     "image": "/images/imac.png",
-    "price": "From 1299€"
+    "price": "From 1299€",
+    "detailedInfo": "SUPERCHARGED BY M3 — Get more done faster with a next-generation chip from Apple. From creating presentations to gaming, you’ll fly through work and play.",
+    "detailedInfo2": "IMMERSIVE DISPLAY — The 24-inch 4.5K Retina display features 500 nits of brightness and support for 1 billion colours. Everything from streaming movies to editing photos is vivid and colourful. (Actual diagonal screen size is 23.5 inches.)"
      
   }
   ,
@@ -53,7 +65,9 @@
     "product": "Logitech MX Master",
     "text": "Tired of pain after working hours with your actual mouse? .. You get it!",
     "image": "/images/logitech.png" ,
-    "price": "From 119€"
+    "price": "From 119€",
+    "detailedInfo": "Flow-enabled mouse : control multiple computers with a Flow-enabled wireless PC mouse and switch between them with a move of the cursor. Seamlessly switch text, images, and files across computers – and operating systems – with a simple copy and paste",
+    "detailedInfo2": "Darkfield High-Precision Tracking : The Logitech MX Master 2S makes an ideal mouse for laptop use with 4 000 DPI Darkfield sensor, the cordless mouse tracks flawlessly on a variety of surfaces including desks, wood, plastic and glass, Nominal value: 1000 dpi"
   }
   ,
   {
@@ -61,7 +75,9 @@
     "product": "Magickeyboard 2 Spacegray",
     "text": "Create Magic with Magic.",
     "image": "/images/magickey.png" ,
-    "price": "110€"
+    "price": "110€",
+    "detailedInfo": "WIRELESS, RECHARGEABLE CONVENIENCE — Magic Keyboard with Numeric Keypad connects wirelessly to your Mac, iPad or iPhone via Bluetooth. And the rechargeable internal battery means no loose batteries to replace.",
+    "detailedInfo2": "WORKS WITH MAC, IPAD OR IPHONE — It pairs quickly with your device so you can get to work straightaway."
   }
   ,
   {
@@ -69,15 +85,19 @@
     "product": "F*ckng Art",
     "text": "Good Fucking Design Advice",
     "image": "/images/fckng.png" ,
-    "price": "From 1799€"
+    "price": "From 1799€",
+    "detailedInfo": "The original GFDA Classic Advice print in a limited edition colourway for our collaboration with Maison Kitsuné",
+    "detailedInfo2": "We have a few remaining prints available from our 2022 collaborative show hosted by Galerie Kitsuné in Brooklyn."
   }
   ,
   {
     "id": 10,
     "product": "Bagpack Black",
-    "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
+    "text": "Vintage Laptop Backpack",
     "image": "/images/tasche.png" ,
-    "price": "89€"
+    "price": "89€",
+    "detailedInfo": "Unique Design: Fashionable, simple, classic, elegant and vintage casual daypack with neat work on each details, a vintage backpack with natural manifestation of noble temperament, broad soft adjustable shoulder strap easy to carrying with perfect fit, premium materials protect belongings from outside damage, beautiful PU leather belt decor suitable for daily use.",
+    "detailedInfo2": "Large Storage Space: Total 4 compartments to organized your belongs well, 1 large capacity main pocket, 1 laptop pocket, 1 small zipper pocket and 1 front compartment pocket."
   }
   ,
   {
@@ -85,7 +105,9 @@
     "product": "Fritz Box 7590 AX",
     "text": "Easy. Stable Connection. FritzBox.",
     "image": "/images/fritz.png" ,
-    "price": "219€"
+    "price": "219€",
+    "detailedInfo": "",
+    "detailedInfo2": ""
   }
   ,
   {
@@ -93,7 +115,9 @@
     "product": "Homepod 2",
     "text": "Incredible 360° sound in small.",
     "image": "/images/homepod.png" ,
-    "price": "From 189€"
+    "price": "From 189€",
+    "detailedInfo": "High-speed downloads and streaming fun – with the FRITZ!Box 7590 AX, your home network is ready for anything.",
+    "detailedInfo2": "Wi-Fi 6 ensures top Wi-Fi speeds. Supervectoring for DSL up to 300 Mbit/s leaves nothing to be desired. A wide range of features for your home network and a complete telephone system with a DECT base station round out the highlights."
   }
   ,
   {
@@ -101,7 +125,9 @@
     "product": "Bang Olufsen H9",
     "text": "Quality sound from sweden.",
     "image": "/images/bangolufsenh9.png" ,
-    "price": "From 199€"
+    "price": "From 199€",
+    "detailedInfo": "Designed for extended wear: Extremely comfortable headphones you can wear all day long. From the morning commute to evenings losing yourself in your favourite podcast.",
+    "detailedInfo2": "Lose the distractions: A new generation of hybrid active noise cancellation compensates for background noise, allowing you to fully immerse yourself in sound."
   }
   ,
   {
@@ -109,7 +135,9 @@
     "product": "iPhone 15 Pro",
     "text": "Fast. Faster. iPhone Pro.",
     "image": "/images/iphone15pro.png" ,
-    "price": "From 1199€"
+    "price": "From 1199€",
+    "detailedInfo": "FORGED IN TITANIUM — iPhone 15 Pro has a strong and light aerospace-grade titanium design with a textured matt-glass back. It also features a super-tough Ceramic Shield front. And it’s splash, water and dust resistant.",
+    "detailedInfo2": "ADVANCED DISPLAY — The 6.1” Super Retina XDR display with ProMotion ramps up refresh rates to 120Hz when you need exceptional graphics performance. Dynamic Island bubbles up alerts and Live Activities."
   }
   ,
   {
@@ -117,7 +145,9 @@
     "product": "AirPods Max",
     "text": "Beats or Beast? Change the view to the world with pro sound and feel the beat!",
     "image": "/images/airpodsmax.png" ,
-    "price": "From 399€"
+    "price": "From 399€",
+    "detailedInfo": "Transparency mode for hearing and interacting with the world around you",
+    "detailedInfo2": "Spatial audio with dynamic head tracking provides theater-like sound that surrounds you"
   }
 
 ]
