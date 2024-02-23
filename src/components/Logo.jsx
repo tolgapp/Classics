@@ -7,8 +7,6 @@ const Logo = () => {
 
   const handleOnLogo = () => {
     setChange(!change);
-
-    return () => alert("Github?");
   };
 
   return (

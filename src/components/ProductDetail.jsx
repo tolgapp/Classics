@@ -5,12 +5,11 @@ import Footer from "./Footer";
 
 const ProductDetail = () => {
   const idParams = useParams();
+  console.log(idParams);
 
   const detailProduct = data.filter((product) => {
     return product.product.toString() === idParams.id;
   });
-
-  console.log(detailProduct);
 
   return (
     <>
