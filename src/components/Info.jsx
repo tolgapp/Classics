@@ -13,13 +13,13 @@ const Info = () => {
             key={elt.id}
             className="flex flex-col w-full sticky border border-gray-800 rounded-lg bg-gray-950 dark:border-gray-700 mb-5 mr-4"
           >
-            <a href="">
+            <Link to={'/home'}>
               <img
                 className="rounded-t-lg size-80 h-40"
                 src={elt.image}
                 alt="product image"
               />
-            </a>
+            </Link>
             <div className="px-1 mt-4 pb-2">
               <Link to={elt.id}>
                 <h5 className="mb-3 w-64 text-3xl font-semibold tracking-tight text-white">
