@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-gray-950 h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 bg-gray-950 text-white flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider`}
+      className={`bg-gray-950 h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 bg-gray-950 text-white flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
     >
       <Logo />
       {mobile ? (

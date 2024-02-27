@@ -14,7 +14,7 @@ const ProductDetail = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-black rounded-xl flex flex-col justify-center place-items-center">
+      <div className="bg-black rounded-xl flex flex-col justify-center place-items-center mr-4 ml-4">
         <img
           className="object-contain w-96"
           src={detailProduct[0].image}

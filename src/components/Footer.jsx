@@ -6,7 +6,7 @@ import help from "../assets/footerHelp.json";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col mt-14 rounded-t-xl md:flex-row md:mt-20  text-white  bg-gray-950">
+    <div className="flex flex-col mt-14 rounded-t-xl md:flex-row md:mt-20  text-white  bg-gray-950 mr-4 ml-4">
       <div className="hidden md:flex flex-col justify-center w-full">
         <a className="flex items-center" href="https://tolgapp.de">
           <img className="ml-8 size-10" src={github} alt="" />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Highlight = () => {
   return (
     <>
-      <div href="#" className="group relative block">
+      <div href="#" className="group relative block mr-4 ml-4">
         <div className="relative h-[450px] sm:h-[550px] ">
           <img
             src="https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

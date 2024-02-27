@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mr-2 ml-2">
         {data.map((elt) => {
           return (
             <ProductItem

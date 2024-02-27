@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Info = () => {
   
   return (
-    <div className="flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ">
+    <div className="flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide pl-0 pr-0">
       {data.map((elt) => {
         return (
           <div
