@@ -1,10 +1,14 @@
-import dark from "../images/toggleDark.png";
+import darkIcon from "../images/toggleDark.png";
 import light from "../images/toggleLight.png";
+import { useThemeContext } from "../context/DarkMode";
 
-const DarkMode = ({ darkMode, toggleDark }) => {
+const DarkMode = () => {
+
+  const {dark, toggleDark} = useThemeContext();
+
   return (
     <>
-      {!darkMode ? (
+      {!dark ? (
         <img
           onClick={toggleDark}
           src={light}
@@ -14,7 +18,7 @@ const DarkMode = ({ darkMode, toggleDark }) => {
       ) : (
         <img
           onClick={toggleDark}
-          src={dark}
+          src={darkIcon}
           alt="darkness icon"
           className="size-8"
         />

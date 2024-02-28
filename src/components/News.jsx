@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import { useThemeContext } from "../context/DarkMode";
 // import data from "../assets/info.json";
 
 const News = () => {
+
+  const {dark} = useThemeContext();
     
   const data = {
     exampleData: [
@@ -47,7 +50,7 @@ const News = () => {
       <h2 className="text-teal-500 ">
         {currentData.product}
       </h2>
-      <p className="md:pl-5  dark:text-white">{currentData.text}</p>
+      <p className={`md:pl-5  ${!dark ? "text-white" : "text-black"}`}>{currentData.text}</p>
     </div>
   );
 };

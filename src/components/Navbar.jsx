@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useThemeContext } from "../context/DarkMode";
 import Logo from "./Logo";
-import DarkMode from "./DarkMode";
+import DarkMode from "./IconDarkMode";
 import burger from "../images/mobileWhite.png";
 import cancel from "../images/cancel.png";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
+  const { dark } = useThemeContext();
+
   const [mobile, setMobile] = useState(false);
 
   const handleMobile = () => {
@@ -37,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-gray-950 h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 bg-gray-950 text-white flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
+      className={`${!dark ? "bg-gray-950" : "bg-white"} h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
     >
       <Logo />
       {mobile ? (
@@ -55,7 +58,7 @@ const Navbar = () => {
           alt="mobile menu icon"
         />
       )}
-      <div className="hidden sm:flex justify-between items-center space-x-8 text-white">
+      <div className={`hidden sm:flex justify-between items-center space-x-8 ${dark ? "text-black" : "text-white"}`}>
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>
           Home
         </Link>
@@ -72,11 +75,7 @@ const Navbar = () => {
       </div>
       {mobile ? (
         <nav className="fixed bottom-0 transition-all delay-150 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
-          <MobileNav
-            mobile={handleMobile}
-            // darkMode={darkMode}
-            // toggleDark={toggleDark}
-          />
+          <MobileNav mobile={handleMobile} />
         </nav>
       ) : (
         ""
