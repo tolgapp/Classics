@@ -14,7 +14,7 @@ const Info = () => {
         return (
           <div
             key={elt.id}
-            className={`flex flex-col w-full sticky border  rounded-t-lg rounded-b-lg mb-5 mr-4 ${dark ? "bg-white" : "bg-zinc-900"}`}
+            className={`flex flex-col w-full sticky border border-slate-800 rounded-t-lg rounded-b-lg mb-5 mr-4 ${dark ? "bg-white" : "bg-zinc-900"}`}
           >
             <Link to={"/home"}>
               <img

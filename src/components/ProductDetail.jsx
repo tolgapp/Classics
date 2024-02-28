@@ -16,7 +16,7 @@ const ProductDetail = () => {
 
 
   return (
-    <>
+    <div className={`${dark ? "bg-slate-200" : "bg-zinc-900" }`}>
       <Navbar />
       <div className={`${!dark ? "bg-gray-950" : "bg-white"} rounded-xl flex flex-col justify-center place-items-center mr-4 ml-4`}>
         <img
@@ -30,12 +30,12 @@ const ProductDetail = () => {
         <p className={`${!dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left`}>
           {detailProduct[0].detailedInfo}
         </p>
-        <p className={`${!dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left pt-6 pb-4`}>
+        <p className={`${!dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left pt-6 pb-14`}>
           {detailProduct[0].detailedInfo2}
         </p>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
