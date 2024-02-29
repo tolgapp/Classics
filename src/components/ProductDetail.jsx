@@ -16,21 +16,21 @@ const ProductDetail = () => {
 
 
   return (
-    <div className={`${dark ? "bg-slate-200" : "bg-zinc-900" }`}>
+    <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>
       <Navbar />
-      <div className={`${!dark ? "bg-gray-950" : "bg-white"} rounded-xl flex flex-col justify-center place-items-center mr-4 ml-4`}>
+      <div className={`${!dark ? "bg-white" : "bg-gray-950"} rounded-xl flex flex-col justify-center place-items-center mr-4 ml-4`}>
         <img
           className="object-contain w-96"
           src={detailProduct[0].image}
           alt={detailProduct[0].product}
         />
-        <h1 className={`${!dark ? "text-white" : "text-black"}  text-5xl font-sans mb-12 mt-12`}>
+        <h1 className={`${dark ? "text-white" : "text-black"}  text-5xl font-sans mb-12 mt-12`}>
           {detailProduct[0].product}
         </h1>
-        <p className={`${!dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left`}>
+        <p className={`${dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left`}>
           {detailProduct[0].detailedInfo}
         </p>
-        <p className={`${!dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left pt-6 pb-14`}>
+        <p className={`${dark ? "text-white" : "text-black"} text-2xl pl-8 pr-8 text-left pt-6 pb-14`}>
           {detailProduct[0].detailedInfo2}
         </p>
       </div>

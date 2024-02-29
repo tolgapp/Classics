@@ -9,7 +9,7 @@ const Products = () => {
   const { dark } = useThemeContext();
 
   return (
-    <div className={`${dark ? "bg-slate-200" : "bg-zinc-900" }`}>
+    <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>
       <Navbar />
       <div className="flex flex-wrap justify-center mr-2 ml-2">
         {data.map((elt) => {

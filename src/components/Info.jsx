@@ -8,13 +8,13 @@ const Info = () => {
 
   return (
     <div
-      className={`flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${dark ? "bg-slate-200" : "bg-zinc-900"}`}
+      className={`flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"}`}
     >
       {data.map((elt) => {
         return (
           <div
             key={elt.id}
-            className={`flex flex-col w-full sticky border border-slate-800 rounded-t-lg rounded-b-lg mb-5 mr-4 ${dark ? "bg-white" : "bg-zinc-900"}`}
+            className={`flex flex-col w-full sticky border border-slate-800 rounded-t-lg rounded-b-lg mb-5 mr-4 ${!dark ? "bg-white" : "bg-zinc-900"}`}
           >
             <Link to={"/home"}>
               <img
@@ -24,11 +24,11 @@ const Info = () => {
               />
             </Link>
             <div
-              className={`px-1 pt-3 pb-2 rounded-b-lg	 ${dark ? "bg-white" : "bg-black"}`}
+              className={`px-1 pt-3 pb-2 rounded-b-lg	 ${!dark ? "bg-white" : "bg-black"}`}
             >
               <Link to={elt.id}>
                 <h5
-                  className={`${dark ? "text-black" : "text-white"} mb-3 w-64 text-3xl font-semibold tracking-tight`}
+                  className={`${!dark ? "text-black" : "text-white"} mb-3 w-64 text-3xl font-semibold tracking-tight`}
                 >
                   {elt.text}
                 </h5>

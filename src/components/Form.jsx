@@ -32,7 +32,7 @@ const Form = () => {
 
 
   return (
-    <div className={`${dark ? "bg-slate-200" : "bg-black" } pb-20 rounded-xl ml-4 mr-4`}>
+    <div className={`${!dark ? "bg-slate-200" : "bg-black" } pb-20 rounded-xl ml-4 mr-4`}>
       {click ? (
         <div>
           <div className="hidden"> Message 1</div>

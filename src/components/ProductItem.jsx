@@ -8,7 +8,7 @@ const ProductItem = (props) => {
   return (
     <div
       key={props.id}
-      className={`${dark ?  "bg-white" : "bg-gray-950"} w-full max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2`}
+      className={`${!dark ?  "bg-white" : "bg-gray-950"} w-full max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2`}
     >
       <a href="#">
         <img
@@ -19,7 +19,7 @@ const ProductItem = (props) => {
       </a>
       <div className="px-5 pb-5 flex flex-col ">
         <a href="#">
-          <h5 className={`${!dark ? "text-white" : "text-black"} text-xl font-semibold tracking-tight `}>
+          <h5 className={`${!dark ? "text-black" : "text-white"} text-xl font-semibold tracking-tight `}>
             {props.product}
           </h5>
         </a>
@@ -76,7 +76,7 @@ const ProductItem = (props) => {
           </span>
         </div>
         <div className="flex items-center justify-between">
-          <span className={`${!dark ? "text-white" : "text-black"} text-3xl font-bold`}>{props.price}</span>
+          <span className={`${!dark ? "text-black" : "text-white"} text-3xl font-bold`}>{props.price}</span>
           <Link
             to={`/products/${props.id}`}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

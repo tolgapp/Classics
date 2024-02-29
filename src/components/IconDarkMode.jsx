@@ -8,7 +8,7 @@ const DarkMode = () => {
 
   return (
     <>
-      {!dark ? (
+      {dark ? (
         <img
           onClick={toggleDark}
           src={light}

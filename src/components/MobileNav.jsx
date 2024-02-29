@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import DarkMode from "./IconDarkMode";
-import { useThemeContext } from "../context/DarkMode";
 
 const MobileNav = ({ mobile }) => {
-  const { dark } = useThemeContext();
 
   return (
     <div className={`flex flex-col items-center justify-center  text-white text-lg mt-8 sm:hidden  `}>

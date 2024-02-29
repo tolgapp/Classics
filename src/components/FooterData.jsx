@@ -6,7 +6,7 @@ const FooterData = ({ header, data }) => {
   const { dark } = useThemeContext();
 
   return (
-    <div className={`${!dark ? "bg-gray-950" : "bg-white"} flex flex-col items-center w-full p-10 rounded-t-xl`}>
+    <div className={`${!dark ? "bg-white" : "bg-gray-950"} flex flex-col items-center w-full p-10 rounded-t-xl`}>
       <h3 className="font-mono text-teal-500 p-2 ">
         {header}
       </h3>

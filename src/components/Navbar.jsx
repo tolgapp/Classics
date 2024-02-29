@@ -6,19 +6,23 @@ import DarkMode from "./IconDarkMode";
 import burger from "../images/mobileWhite.png";
 import cancel from "../images/cancel.png";
 import MobileNav from "./MobileNav";
+import burgerDark from "../images/mobileDark.png";
+import cancelDark from "../images/xDark.svg";
+
 
 const Navbar = () => {
   const { dark } = useThemeContext();
-
   const [mobile, setMobile] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const icon = dark ? burger : burgerDark;
+  const cancelIcon = dark ? cancel : cancelDark;
 
   const handleMobile = () => {
     setMobile(!mobile);
     console.log(!mobile);
   };
-
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
@@ -38,27 +42,28 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
+
   return (
     <nav
-      className={`${!dark ? "bg-gray-950" : "bg-white"} h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
+      className={`${dark ? "bg-gray-950" : "bg-white"} h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
     >
       <Logo />
       {mobile ? (
         <img
           onClick={handleMobile}
           className="size-8 sm:hidden"
-          src={cancel}
+          src={cancelIcon}
           alt="mobile menu icon"
         />
       ) : (
         <img
           onClick={handleMobile}
           className="size-8 sm:hidden"
-          src={burger}
+          src={icon}
           alt="mobile menu icon"
         />
       )}
-      <div className={`hidden sm:flex justify-between items-center space-x-8 ${dark ? "text-black" : "text-white"}`}>
+      <div className={`hidden sm:flex justify-between items-center space-x-8 ${!dark ? "text-black" : "text-white"}`}>
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>
           Home
         </Link>
@@ -74,7 +79,7 @@ const Navbar = () => {
         <DarkMode />
       </div>
       {mobile ? (
-        <nav className="fixed bottom-0 transition-all delay-150 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
+        <nav className="fixed bottom-0 transition-all delay-100 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
           <MobileNav mobile={handleMobile} />
         </nav>
       ) : (

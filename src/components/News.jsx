@@ -50,7 +50,7 @@ const News = () => {
       <h2 className="text-teal-500 ">
         {currentData.product}
       </h2>
-      <p className={`md:pl-5  ${!dark ? "text-white" : "text-black"}`}>{currentData.text}</p>
+      <p className={`md:pl-5  ${dark ? "text-white" : "text-black"}`}>{currentData.text}</p>
     </div>
   );
 };

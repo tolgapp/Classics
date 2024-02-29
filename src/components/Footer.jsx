@@ -9,7 +9,7 @@ const Footer = () => {
   const { dark } = useThemeContext();
 
   return (
-    <div className={`${!dark ? "bg-gray-950" : "bg-white"} ${!dark ? "text-white" : "text-black"} flex flex-col mt-14 rounded-t-xl md:flex-row md:mt-20 mr-4 ml-4`}>
+    <div className={`${!dark ? "bg-white" : "bg-gray-950"} ${dark ? "text-white" : "text-black"} flex flex-col mt-14 rounded-t-xl md:flex-row md:mt-20 mr-4 ml-4`}>
       <div className="hidden md:flex flex-col justify-center w-full">
         <a className="flex items-center" href="https://tolgapp.de">
           <img className="ml-8 size-10" src={github} alt="" />
