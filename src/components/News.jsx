@@ -34,13 +34,11 @@ const News = () => {
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    // create an interval
+
     const intervalId = setInterval(() => {
-      // increment and modulo the active state so it never goes out of bounds.
-      // Set the new active using the function form of setActive so the closure doesn't matter
       setActive((active) => (active + 1) % data.exampleData.length);
     }, 4900);
-    // Clean up the effect
+
     return () => clearInterval(intervalId);
   });
   const currentData = data.exampleData[active];

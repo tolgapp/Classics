@@ -21,7 +21,6 @@ const Navbar = () => {
 
   const handleMobile = () => {
     setMobile(!mobile);
-    console.log(!mobile);
   };
 
   const handleScroll = () => {
@@ -79,7 +78,7 @@ const Navbar = () => {
         <DarkMode />
       </div>
       {mobile ? (
-        <nav className="fixed bottom-0 transition-all delay-100 backdrop-blur-3xl w-full  rounded-t-xl left-0 h-4/6 z-30 sm:hidden">
+        <nav className="fixed right-0 bottom-0 transition-all delay-100 backdrop-blur-3xl w-full rounded-t-xl h-4/6 z-30 sm:hidden">
           <MobileNav mobile={handleMobile} />
         </nav>
       ) : (

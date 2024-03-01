@@ -6,7 +6,6 @@ import { useThemeContext } from "../context/DarkMode";
 
 const ProductDetail = () => {
   const idParams = useParams();
-  console.log(idParams);
 
   const detailProduct = data.filter((product) => {
     return product.product.toString() === idParams.id;
