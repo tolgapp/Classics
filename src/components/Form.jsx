@@ -35,9 +35,7 @@ const Form = () => {
     <div className={`${!dark ? "bg-slate-200" : "bg-black" } pb-20 rounded-xl ml-4 mr-4`}>
       {click ? (
         <div>
-          <div className="hidden"> Message 1</div>
-          <div className="hidden"> Message 2</div>
-          <form className="flex flex-col justify-center items-center pt-14 w-full md:mt-20">
+          <form className="flex flex-col justify-center items-center pt-14 w-full md:pt-44 mb-48">
             {data.exampleData.map((elt) => {
               return (
                 <input
@@ -63,15 +61,13 @@ const Form = () => {
               Send
             </button>
           </form>
-          <div className="hidden">Message 3</div>
-          <div className="hidden">Message 4</div>
         </div>
       ) : (
         <>
-          <h1 className="rounded-lg font-sans font-semibold text-4xl mb-14 mt-14 break-words bg-gradient-to-r from-teal-400 to-teal-800 text-transparent bg-clip-text p-2 md:text-9xl">
-            <span className={`${!dark ? "text-white" : "text-black" }   dark:text-white`}>You</span> need more information
+          <h1 className="rounded-lg font-sans font-semibold text-4xl mb-20 mt-20 break-words bg-gradient-to-r from-teal-400 to-teal-800 text-transparent bg-clip-text p-2 md:text-9xl">
+            <span className={`${!dark ? "text-black" : "text-white" }   dark:text-white`}>You</span> need more information
             about a product or have an order that goes over 10K?{" "}
-            <span className={`${!dark ? "text-white" : "text-black" }`}>Let&apos;s ..</span>
+            <span className={`${!dark ? "text-black" : "text-white" }`}>Let&apos;s ..</span>
           </h1>
           <button
             className="w-1/2 p-2 rounded-lg bg-teal-700 font-mono hover:bg-teal-500 font"
