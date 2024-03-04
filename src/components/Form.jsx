@@ -32,7 +32,7 @@ const Form = () => {
 
 
   return (
-    <div className={`${!dark ? "bg-slate-200" : "bg-black" } pb-20 rounded-xl ml-4 mr-4`}>
+    <div className={`${!dark ? "bg-white" : "bg-black" } pb-20 rounded-xl ml-4 mr-4`}>
       {click ? (
         <div>
           <form className="flex flex-col justify-center items-center pt-14 w-full md:pt-44 mb-48">

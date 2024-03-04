@@ -9,7 +9,6 @@ import MobileNav from "./MobileNav";
 import burgerDark from "../images/mobileDark.png";
 import cancelDark from "../images/xDark.svg";
 
-
 const Navbar = () => {
   const { dark } = useThemeContext();
   const [mobile, setMobile] = useState(false);
@@ -25,8 +24,7 @@ const Navbar = () => {
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
-
-    if (currentScrollPos > prevScrollPos && currentScrollPos > 20) {
+    if (currentScrollPos > prevScrollPos) {
       setVisible(false);
     } else {
       setVisible(true);
@@ -40,7 +38,6 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   });
-
 
   return (
     <nav
@@ -62,7 +59,9 @@ const Navbar = () => {
           alt="mobile menu icon"
         />
       )}
-      <div className={`hidden sm:flex justify-between items-center space-x-8 ${!dark ? "text-black" : "text-white"}`}>
+      <div
+        className={`hidden sm:flex justify-between items-center space-x-8 ${!dark ? "text-black" : "text-white"}`}
+      >
         <Link className="hover:text-teal-700 hover:underline" to={"/home"}>
           Home
         </Link>
