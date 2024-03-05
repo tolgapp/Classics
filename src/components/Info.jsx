@@ -8,7 +8,7 @@ const Info = () => {
 
   return (
     <div
-      className={`flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"}`}
+      className={`flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"} mr-4 ml-4`}
     >
       {data.map((elt) => {
         return (

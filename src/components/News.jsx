@@ -20,7 +20,7 @@ const News = () => {
         },
         {
           "id": 3,
-          "product": "iPad 2023",
+          "product": "iPad 2024",
           "text": "Stay connected to the world with your new iPad Pro"
         },
         {
