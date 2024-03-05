@@ -6,7 +6,7 @@ import News from "../components/News";
 import { useThemeContext } from "../context/DarkMode";
 
 const Home = () => {
-  const { dark } = useThemeContext();
+  const { dark } = useThemeContext(); 
 
   return (
     <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>

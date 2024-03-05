@@ -22,9 +22,9 @@ const Tips = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleVisibility);
-    
+
     return () => window.removeEventListener("scroll", handleVisibility);
-  });
+  }, [visible]);
 
   return (
     <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900"}`}>
@@ -33,7 +33,7 @@ const Tips = () => {
         className={`${!dark ? "bg-white" : "bg-black"} rounded-xl pb-12 mt-14 mr-4 ml-4`}
       >
         <h1
-          className={`header-tips ${visible ? 'visible' : 'invisible'} font-sans font-semibold pt-10 pr-8 pl-8 text-4xl break-words bg-gradient-to-r from-gray-900 to-gray-500 tracking-wide text-transparent bg-clip-text p-2  md:text-9xl`}
+          className={`header-tips ${visible ? "visible" : "invisible"} font-sans font-semibold pt-10 pr-8 pl-8 text-4xl break-words bg-gradient-to-r from-gray-900 to-gray-500 tracking-wide text-transparent bg-clip-text p-2  md:text-9xl`}
         >
           If you can imagine it! You can create it with Macbook Pro.
         </h1>
