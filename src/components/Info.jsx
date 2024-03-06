@@ -2,18 +2,19 @@
 import data from "../assets/techNews.json";
 import { Link } from "react-router-dom";
 import { useThemeContext } from "../context/DarkMode";
+import { useEffect, useRef, useState } from "react";
 
 const Info = () => {
   const { dark } = useThemeContext();
 
   return (
     <div
-      className={`flex mb-4 mt-5 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"}`}
+      className={`scrollAnimation flex mb-4 mt-5 pl-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"}`}
     >
       {data.map((elt) => {
         return (
           <div
-            key={elt.id}
+            key={elt.id} 
             className={`flex flex-col w-full sticky border border-slate-800 rounded-t-lg rounded-b-lg mb-5 mr-4 ${!dark ? "bg-white" : "bg-zinc-900"}`}
           >
             <Link to={"/home"}>
