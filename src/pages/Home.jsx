@@ -9,7 +9,7 @@ const Home = () => {
   const { dark } = useThemeContext(); 
 
   return (
-    <div className={`home ${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>
+    <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>
       <Navbar  />
       <News />
       <Info />

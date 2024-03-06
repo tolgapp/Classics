@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { useThemeContext } from "../context/DarkMode";
 import macbook from "/images/m3pro.png";
 import { useEffect, useState } from "react";
+import News from "../components/News"
 
 const Tips = () => {
   const { dark } = useThemeContext();
@@ -29,8 +30,9 @@ const Tips = () => {
   return (
     <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900"}`}>
       <Navbar />
+      <News />
       <section
-        className={`${!dark ? "bg-white" : "bg-black"} rounded-xl pb-12 mt-14 mr-4 ml-4`}
+        className={`${!dark ? "bg-white" : "bg-black"} rounded-xl pb-12 mt-6 mr-4 ml-4`}
       >
         <h1
           className={`header-tips ${visible ? "visible" : "invisible"} font-sans font-semibold pt-10 pr-8 pl-8 text-4xl break-words bg-gradient-to-r from-gray-900 to-gray-500 tracking-wide text-transparent bg-clip-text p-2  md:text-9xl`}

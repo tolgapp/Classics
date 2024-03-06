@@ -8,7 +8,7 @@ const Info = () => {
 
   return (
     <div
-      className={`flex mb-4 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"} mr-4 ml-4`}
+      className={`flex mb-4 mt-5 w-full flex-nowrap overflow-x-scroll scrollbar-hide ${!dark ? "bg-slate-200" : "bg-zinc-900"}`}
     >
       {data.map((elt) => {
         return (
@@ -18,7 +18,7 @@ const Info = () => {
           >
             <Link to={"/home"}>
               <img
-                className="rounded-t-lg size-80 h-40"
+                className="rounded-t-lg size-80 h-40  object-cover"
                 src={elt.image}
                 alt="product image"
               />
@@ -28,7 +28,7 @@ const Info = () => {
             >
               <Link to={elt.id}>
                 <h5
-                  className={`${!dark ? "text-black" : "text-white"} mb-3 w-64 text-3xl font-semibold tracking-tight`}
+                  className={`${!dark ? "text-black" : "text-white"} mb-3 w-64 text-3xl font-semibold tracking-tight text-center`}
                 >
                   {elt.text}
                 </h5>

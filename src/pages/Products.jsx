@@ -3,6 +3,7 @@ import data from "../assets/info.json";
 import Footer from "../components/Footer";
 import ProductItem from "../components/ProductItem";
 import { useThemeContext } from "../context/DarkMode";
+import News from "../components/News";
 
 const Products = () => {
 
@@ -11,7 +12,8 @@ const Products = () => {
   return (
     <div className={`${!dark ? "bg-slate-200" : "bg-zinc-900" }`}>
       <Navbar />
-      <div className="flex flex-wrap justify-center mr-2 ml-2">
+      <News />
+      <div className="flex flex-wrap justify-center mt-4 mr-2 ml-2">
         {data.map((elt) => {
           return (
             <ProductItem
