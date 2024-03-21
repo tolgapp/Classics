@@ -51,7 +51,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-
   return (
     <nav
       className={`${dark ? "bg-gray-950" : "bg-white"} h-14 sticky ${visible ? "top-2" : ""} z-10 transition-colors duration-200 flex justify-between items-center mb-8 rounded-xl px-5 py-2 text-xs font-medium uppercase tracking-wider mr-4 ml-4`}
@@ -59,7 +58,7 @@ const Navbar = () => {
       <Logo />
       {searchBar ? (
         <input
-        onChange={e => setText(e.target.value)}
+          onChange={(e) => setText(e.target.value)}
           className="p-2 w-72 rounded-lg bg-slate-500"
           placeholder="FritzBox .. iPad .. Beats .."
         />
