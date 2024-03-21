@@ -3,8 +3,7 @@ import light from "../images/toggleLight.png";
 import { useThemeContext } from "../context/DarkMode";
 
 const DarkMode = () => {
-
-  const {dark, toggleDark} = useThemeContext();
+  const { dark, toggleDark } = useThemeContext();
 
   return (
     <>

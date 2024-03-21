@@ -5,11 +5,13 @@ import Tips from "./pages/Tips";
 import Contact from "./pages/Contact";
 import ProductDetail from "./components/ProductDetail";
 import DarkThemeProvider from "./context/DarkMode";
+import Search from "./context/Search";
 
 function App() {
   return (
     <>
       <DarkThemeProvider>
+        <Search>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -19,6 +21,7 @@ function App() {
           <Route path="/tips" element={<Tips />} />
           <Route path="/tips/:id" element={<Tips />} />
         </Routes>
+        </Search>
       </DarkThemeProvider>
     </>
   );

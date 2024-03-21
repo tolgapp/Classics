@@ -8,7 +8,7 @@ const ProductItem = (props) => {
   return (
     <div
       key={props.id}
-      className={`${!dark ?  "bg-white" : "bg-gray-950"} w-full max-w-sm rounded-lg shadow bg-slate-950 border-gray-700 m-2`}
+      className={`${!dark ?  "bg-white" : "bg-gray-950"} max-w-96 rounded-lg shadow bg-slate-950 border-gray-700 m-2`}
     >
       <a href="#">
         <img

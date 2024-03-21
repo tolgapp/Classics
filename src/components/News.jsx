@@ -15,11 +15,11 @@ const News = () => {
         {
           "id": 2,
           "product": "Anker",
-          "text": "Huge power in small!"
+          "text": "Huge power in your pocket!"
         },
         {
           "id": 3,
-          "product": "iPad 2024",
+          "product": "iPad Pro 2024",
           "text": "Stay connected to the world with your new iPad Pro"
         },
         {

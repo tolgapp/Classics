@@ -44,8 +44,16 @@
  0% {
   transform: translateX(-0.2rem);
  } 50% {
-  transform: translateX(4rem);
+  transform: translateX(2rem);
  } 100% {
   transform: translateX(0);
  }
+}
+
+.slowDown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 10rem;
+  width: 20rem;
 }

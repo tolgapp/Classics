@@ -2,7 +2,6 @@
 import data from "../assets/techNews.json";
 import { Link } from "react-router-dom";
 import { useThemeContext } from "../context/DarkMode";
-import { useEffect, useRef, useState } from "react";
 
 const Info = () => {
   const { dark } = useThemeContext();
